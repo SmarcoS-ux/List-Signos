@@ -1,6 +1,10 @@
 .lista-signos{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .signos{
@@ -8,6 +12,8 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 1920px;
 }
 
 .signos .links{

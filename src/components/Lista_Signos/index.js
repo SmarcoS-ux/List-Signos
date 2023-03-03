@@ -92,7 +92,7 @@ export default function Lista_Signos(){
                     signo = "Capricórnio"
                     image = "/assets/Capricornio.jpg" 
                     dataInicio = "22/12"
-                    dataFim = "20/01"/>
+                    dataFim = "20/01"/> 
                 </Link>
             </div>
         </div>
