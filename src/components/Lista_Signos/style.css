@@ -1,0 +1,15 @@
+.lista-signos{
+    display: flex;
+    flex-direction: column;
+}
+
+.signos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.signos .links{
+    text-decoration: none;
+}

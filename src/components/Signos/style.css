@@ -1,0 +1,49 @@
+.itemList{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    background-color: rgb(85, 76, 69);
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.nome-signo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.img-signo{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    /*background-color: #fff;*/
+    width: 80%;
+    height: 190px;
+    margin: 15px auto;
+}
+.img-signo img{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100%;
+    height: 190px;
+}
+
+.datas{
+    background-color: rgb(121, 114, 106);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 33px;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
+
