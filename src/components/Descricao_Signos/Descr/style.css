@@ -1,0 +1,50 @@
+.descr-signos{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+}
+
+.descr-signos h2, .descr-signos p{
+    text-align: center;
+}
+
+.descr-signos img{
+    width: 300px;
+    height: 350px;
+    border: 1px solid rgb(163, 162, 162);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(136, 136, 136);
+}
+
+.descr-signos p{
+    margin: 40px 100px 0 100px; 
+    text-align: justify;
+}
+
+#copyh{
+    font-size: 12px;
+}
+
+#voltar{
+    content: '';
+    background-color: orange;
+    background-image: url("../../../../public/assets/voltar.png");
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 20px;
+    margin-top: 30px;
+    width: 140px;
+    padding: 10px 0px;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    border-radius: 20px;
+}
+#voltar:hover{
+    background-color: rgb(224, 146, 1);
+    box-shadow: 2px 2px 5px rgb(155, 154, 154);
+}
